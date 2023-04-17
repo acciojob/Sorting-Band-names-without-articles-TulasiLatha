@@ -2,7 +2,7 @@
 
 let touristSpots=['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
 function strip(bandname){
-	return bandname.replace('/^(a|the|an)/i','').trim();
+	return bandname.replace(/^(a|the|an)/i,'').trim();
 	
 }
 const sortedBands=bands.sort((a,b)=>strip(a)>strip(b)?1:-1);
