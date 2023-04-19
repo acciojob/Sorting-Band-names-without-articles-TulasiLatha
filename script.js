@@ -8,5 +8,5 @@ function removeArticles(touristSpots) {
     return words.splice(1).join(" ");
   return touristSpots;
 }
-	
+	document.getElementsByTagName('li');
 
