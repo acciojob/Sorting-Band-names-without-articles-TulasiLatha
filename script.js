@@ -8,6 +8,4 @@ function removeArticles(touristSpots) {
     return words.splice(1).join(" ");
   return touristSpots;
 }
-	const ul = document.getElementById('band');
-const listItems = ul.getElementsByTagName('li');
-    
+	
